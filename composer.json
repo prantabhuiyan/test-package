@@ -1,0 +1,19 @@
+{
+    "name": "pranta/php-package",
+    "description": "Test package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Test User",
+            "email": "pkbhuiyan@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "pranta\\HelloWorld\\": "src/"
+        }
+    },
+    "require": {}
+}
